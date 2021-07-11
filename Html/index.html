@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head></head>
+<meta charset="UTF-8">  
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Final Project</title>
+</head>
+<style>
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+    
+  input[type=submit] {
+    width: 100%;
+    background-color: #FF9999;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+    
+  input[type=submit]:hover {
+    background-color: #FF6666;
+  }
+    
+  div {
+    border-radius: 5px;
+    background-color: #404040;
+    padding: 20px;
+  }
+    
+  .button {
+    background-color: #FF9999;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #FF6666;
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+  }
+  
+  label{
+    color: white;
+  }
+
+  client.println ("label{");
+  client.println ("color: white;");
+  client.println ("}");
+
+
+</style>
+<body>
+    <div>
+        <form action="" method="GET">
+          <label for="fname">On Time</label>
+          <input type="text" id="on" name="on">
+      
+          <label for="lname">Off Time</label>
+          <input type="text" id="off" name="off" >
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="link">
+        <a href="/LED=OFF\" class="button">Turn OFF</a>
+        <a href="/LED=ON\" class="button">Turn ON</a>
+        <a href="/" class="button">Clear URL</a>
+      </div>
+</body>
+</html>
